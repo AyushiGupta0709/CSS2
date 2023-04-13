@@ -1,0 +1,50 @@
+#img1{
+    height: 20rem;
+    width: 20vw;
+
+}
+#img2{
+    height: 180px;
+    width: 30em;
+}
+#img3{
+    height: 300px;
+    width: 50em;
+}
+.secondContainer p{
+    font-size: 20px;
+    border: 2px solid rgb(175, 14, 95);
+    background-color: rgb(216, 143, 180);
+    border-radius: 1em;
+
+}
+.thirdContainer > p{
+    font-weight: bolder;
+    border-radius: 10px;
+    border: 4px solid rgb(21, 97, 21);
+    background-color: rgb(93, 172, 93);
+}
+.fourthContainer +p {
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(133, 4, 4);
+    background-color: rgb(208, 130, 130);
+    color: red;
+}
+.transition
+{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+}
+.transition:hover{
+    background-color: green;
+    transition: 0.4s;
+    width: 100px;
+    height: 100px;
+
+}
+.fifthContainer ~ p{
+    color:  blue;
+    
+}
